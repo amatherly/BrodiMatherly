@@ -1,0 +1,34 @@
+/* Add your portfolio page CSS styles here */
+h1 {
+  color: #61dafb;
+}
+
+/* Dark minimal developer theme */
+.vscode-theme {
+  background-color: #1e1e1e;
+  color: #abb2bf;
+}
+
+.vscode-theme h2 {
+  color: #61dafb;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.project img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.project-description {
+  color: #abb2bf;
+}
+
+.project-description h3 {
+  color: #61dafb;
+}
