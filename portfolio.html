@@ -1,57 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>My Portfolio - GitHub Pages Website</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/portfolio.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <title>My Portfolio - GitHub Pages Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+    </head>
 <body>
-  <h1>My Portfolio</h1>
+<header id="header_0" class="top">
+    <nav class="navbar">
+        <a href="index.html" class="nav-link btn">Home</a>
+        <a href="https://github.com/amatherly" class="nav-link btn">GitHub</a>
+        <a href="resume.html" class="nav-link btn">Resume</a>
+        <a href="portfolio.html" class="nav-link btn">Portfolio</a>
+    </nav>
+</header>
+<h1>Portfolio</h1>
 
-
-  <div id="videosList">
-    <div class="video">
-      <video class="thevideo" loop preload="none">
-        <source src="Craps_preview.mp4" type="video/mp4">
-      </video>
-    </div>
-
-  </div>
-
-
-  <section id="project">
-    <h2>Games</h2>
+<section id="project">
+    <hr>
+    <h3>Pier Ratz!</h3>
     <div class="project">
-      <img src="PierRatzPreview.png" alt="Game Preview">
-      <div class="project-description">
-        <h3>Pier Ratz!</h3>
-        <p>Pier Ratz! is a 3D arcade/simlulator currently in development. It is based loosely on my teenage years as a
-          beach bum in Southern California. Pier Ratz! is made using the Unity game engine and C# scripting.</p>
-      </div>
+        <div class="preview">
+            <img src="PierRatzPreview.png" alt="Game Preview">
+        </div>
+
+        <div class="project-description">
+
+            <p>Pier Ratz! is a 3D arcade/simlulator currently in development. It is based loosely on my teenage years as
+                a
+                beach bum in Southern California. Pier Ratz! is made using the Unity game engine and C# scripting.</p>
+        </div>
     </div>
 
     <hr>
 
     <div class="project">
-<!--      <img src="craps.png" alt="Game Preview">-->
-      <div class="video">
-        <video class="thevideo" loop preload="none">
-          <source src="Craps_preview.mp4" type="video/mp4">
-        </video>
-      </div>
+        <div class="project-description">
+            <h3>Craps</h3>
+            <iframe width="625" height="525" src="Craps_preview.mp4" title="video player" frameborder="0"
+                    allow="accelerometer;"
+                    allowfullscreen></iframe>
+            <p>Classic Craps game with full bank and betting system, and includes dice rolling animations and sounds for
+                dice, menus, and buttons. This project was made in Java using the Java Swing framework.</p>
+        </div>
 
-      <div class="project-description">
-        <h3>Craps</h3>
-        <p>Classic Craps game with full bank and betting system, and includes dice rolling animations and sounds for dice, menus, and buttons. This project was made in Java using the Java Swing framework.</p>
-      </div>
+
     </div>
 
-  </section>
+</section>
 
 
-  <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

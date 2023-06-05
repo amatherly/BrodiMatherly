@@ -19,9 +19,12 @@ h1, h2, h3 {
   color: #000000;
 }
 
+a.underline{
+  text-decoration: underline;
+}
+
 .resume {
   margin-bottom: 30px;
-
 }
 
 
@@ -55,12 +58,12 @@ ul li {
 }
 
 .resume-item h3 {
-  color: #79b8ff;
+  color: #486e93;
   transition: background-color 1s ease-in-out;
 }
 
 .resume-item:hover h3{
-  color: #b03d72;
+  color: darkorange;
 }
 
 .resume-item p {
@@ -74,7 +77,7 @@ ul li {
 .resume-item ul li:before {
   content: '-';
   color: #000000;
-  display: inline-block;
+  display: inline-table;
   width: 10px;
   margin-right: 10px;
 }

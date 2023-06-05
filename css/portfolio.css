@@ -1,6 +1,12 @@
-/* Add your portfolio page CSS styles here */
 h1 {
+  padding-top: 20px;
   color: #000000;
+  text-align: center;
+}
+
+h3{
+  font-weight: bolder;
+  border-bottom: 2px solid #4d4d4d;
 }
 
 body {
@@ -9,48 +15,39 @@ body {
   font-family: 'Kanit', sans-serif;
   font-weight: bold;
   margin: 0;
-  padding: 0;
-}
-
-#videosList {
-  max-width: 600px;
-  overflow: hidden;
-}
-
-.video {
-  height: 330px;
-  width: 600px;
-  margin-bottom: 50px;
+  padding: 70px;
 }
 
 .vscode-theme h2 {
   color: #000000;
 }
 
+a.underline{
+  text-decoration: underline;
+}
+
 .project {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  margin-left: 30px;
+  display: inline-block;
+  margin: auto;
+  padding-bottom: 100px;
 }
 
-.project img {
-  float: left;
-  width: 350px;
+.project img{
+  margin: auto;
+  width: 35%;
   height: auto;
-  margin-right: 20px;
 }
 
-.video {
-  background-image: url("craps.png");
-  float: left;
-  width: 350px;
-  height: auto;
-  margin-right: 20px;
+.preview{
+  margin: auto;
+}
+
+iframe {
+  margin: auto;
+  width: 50%
 }
 
 .project-description {
-  float: right;
   color: #000000;
 }
 
