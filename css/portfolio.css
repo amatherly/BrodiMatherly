@@ -12,6 +12,17 @@ body {
   padding: 0;
 }
 
+#videosList {
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.video {
+  height: 330px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
 .vscode-theme h2 {
   color: #000000;
 }
@@ -24,6 +35,14 @@ body {
 }
 
 .project img {
+  float: left;
+  width: 350px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.video {
+  background-image: url("craps.png");
   float: left;
   width: 350px;
   height: auto;
