@@ -11,6 +11,7 @@ body {
 }
 
 .top {
+    font-weight: normal;
     z-index: 12;
     justify-content: space-between;
     width: 100%;
