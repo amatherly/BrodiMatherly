@@ -48,14 +48,21 @@ a.underline{
   padding: 2px 0;
 }
 
-ul {
-  margin: 0;
+
+.resume-item ul {
+  width: 90%;
+  margin: 20px;
   padding: 0;
+  display: list-item;
 }
 
-ul li {
+.resume-item ul li {
+  margin-bottom: 20px;
   list-style-type: none;
+  padding-left: 20px;
+  color: #000000;
 }
+
 
 .resume-item h3 {
   color: #486e93;
@@ -70,17 +77,6 @@ ul li {
   color: #000000;
 }
 
-.resume-item ul {
-  color: #000000;
-}
-
-.resume-item ul li:before {
-  content: '-';
-  color: #000000;
-  display: inline-table;
-  width: 10px;
-  margin-right: 10px;
-}
 
 header {
   text-align: center;
@@ -93,7 +89,6 @@ header h1 {
 header p {
   color: #000000;
 }
-
 
 
 

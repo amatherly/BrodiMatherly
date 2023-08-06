@@ -1,13 +1,24 @@
 h1 {
-  padding-top: 20px;
+  padding-top: 30px;
   color: #000000;
   text-align: center;
 }
 
 h3{
+  text-align: center;
   font-weight: bolder;
   border-bottom: 2px solid #4d4d4d;
 }
+
+
+.imgcontainer{
+  background-color: rgba(247, 222, 255, 0.45); /* Set your desired background color */
+  padding: 40px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(73, 14, 220, 0.1);
+}
+
 
 body {
   background-color: #ffffff;
@@ -17,6 +28,11 @@ body {
   margin: 0;
   padding: 70px;
 }
+
+/*img {*/
+/*  max-width: 100%;*/
+/*  height: auto;*/
+/*}*/
 
 .vscode-theme h2 {
   color: #000000;
@@ -30,16 +46,21 @@ a.underline{
   display: inline-block;
   margin: auto;
   padding-bottom: 100px;
+  align-items: center;
+  text-align: center;
 }
 
 .project img{
-  margin: auto;
-  width: 35%;
-  height: auto;
+  display: inline-block;
+  width: auto;
+  height: 400px;
+  background: #ccc;
+  margin: 5px;
 }
 
 .preview{
-  margin: auto;
+  border: 1px solid #ccc;
+  text-align: center;
 }
 
 iframe {
