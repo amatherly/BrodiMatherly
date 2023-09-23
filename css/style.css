@@ -225,26 +225,26 @@ h1, h2, h3 {
 }
 
 #content-wrap {
-    padding-bottom: 200px; /* Footer height */
+    padding-bottom: 200px;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* Footer height */
+
 }
 
 ul {
     display: flex;
-    align-items: stretch; /* Default */
+    align-items: stretch;
     justify-content: space-between;
     width: 70%;
 }
 
 li {
     display: block;
-    flex: 0 2 auto; /* Default */
+    flex: 0 2 auto;
     list-style-type: none;
 }
 

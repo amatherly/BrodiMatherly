@@ -1,14 +1,10 @@
-console.log('Hello, GitHub Pages!');
-
-
-let clip = document.querySelector(".vid")
-
-
-clip.addEventListener("mouseover", function (e) {
-    clip.play();
-})
-
-/* Applying the mouse out event to pause the video */
-clip.addEventListener("mouseout", function (e) {
-    clip.pause();
-})
+// let videoElements = document.querySelectorAll('.video-preview');
+// videoElements.forEach(video => {
+//     video.addEventListener('mouseover', function() {
+//         this.muted = false;
+//     });
+//
+//     video.addEventListener('mouseout', function() {
+//         this.muted = true;
+//     });
+// });

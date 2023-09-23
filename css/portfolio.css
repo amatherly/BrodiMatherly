@@ -1,3 +1,12 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 70px;
+}
+
 h1 {
   padding-top: 30px;
   color: #000000;
@@ -12,21 +21,11 @@ h3{
 
 
 .imgcontainer{
-  background-color: rgba(247, 222, 255, 0.45); /* Set your desired background color */
+  background-color: rgba(73, 14, 220, 0.1);
   padding: 40px;
   margin-bottom: 70px;
-  border-radius: 10px;
+  border-radius: 0px;
   box-shadow: 10px 10px 10px rgba(73, 14, 220, 0.1);
-}
-
-
-body {
-  background-color: #ffffff;
-  color: #000000;
-  font-family: 'Kanit', sans-serif;
-  font-weight: bold;
-  margin: 0;
-  padding: 70px;
 }
 
 /*img {*/
@@ -43,7 +42,6 @@ a.underline{
 }
 
 .project {
-
   margin: auto;
   padding-bottom: 100px;
   align-items: center;
@@ -59,13 +57,16 @@ a.underline{
 }
 
 .preview{
-  border: 1px solid #ccc;
   text-align: center;
 }
 
-iframe {
-  margin: auto;
-  width: 50%
+.video-preview {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 .project-description {
