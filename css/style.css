@@ -1,7 +1,7 @@
 /* style.css */
 body {
-    background-color: #ffffff;
-    color: #d4d4d4;
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,0.5171428434655112) 0%, rgba(29,231,253,0.49753500032825626) 50%, rgba(252,176,69,1) 100%);
     font-family: 'Kanit', serif;
     font-weight: normal;
     margin: 0;
